@@ -1,0 +1,25 @@
+Name: Groups
+Id: g=33ac98afcbbcd645bc8146197074cc43
+Type: GroupsCategoryFolder
+Children:
+- Name: Group1
+  Id: g=7e153fc75bce630570bc229f7dc1fcac
+  Type: GroupType
+- Name: Group2
+  Id: g=f5406bbe98a1f628d2efbc436ff6caf6
+  Type: GroupType
+- Name: DesignTimeNetLogic1
+  Id: g=0a57d51a25ac78cc0fccff2c78c2a482
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+    Id: g=bd79eb8450046a86f87fd851f361bcf9
+  - Name: BehaviourStartPriority
+    Id: g=c545d98a9648028144c7772cab3bdeeb
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+- Name: Nou_Grup
+  Id: g=396413c7d7384a1c9bfcfd3f883e5be2
+  Type: GroupType

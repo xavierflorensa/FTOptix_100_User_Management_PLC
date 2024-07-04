@@ -1,0 +1,79 @@
+Name: Users
+Id: g=8cdfe95c558e909385d4fe7ddc9a2655
+Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=1b230a8493bd24097aa8e8b7d40488c4
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=46a6e0153a5bf3148a77aacb4d1f2e4e
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=782bcee7b3be26e97577873dde123c96
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=f737e7ba69e2f053130f2c57eddd79cc
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Name: Domain
+    Id: g=225d89a911a7551f3b9cfa54bf2b24f1
+    Type: BaseVariableType
+    DataType: String
+    ReferenceType: HasProperty
+    Value: ""
+  - Class: Reference
+    Type: HasGroup
+    Target: g=7e153fc75bce630570bc229f7dc1fcac
+- Name: User2
+  Id: g=f81df6d25f2fe5b4b427bb195be00914
+  Type: UserType
+  Children:
+  - Name: LocaleId
+    Id: g=bc6735c9ef861f32685df62ff924da8a
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=3a72d58fb036c58706528557251016c3
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=da75a0af8ddd4ef4a8155b97a26aff82
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 1
+  - Class: Reference
+    Type: HasGroup
+    Target: g=f5406bbe98a1f628d2efbc436ff6caf6
+- Name: User3
+  Id: g=f8b110eadb57aba8ddb3029e5a42e50a
+  Type: UserType
+  Children:
+  - Class: Reference
+    Type: HasGroup
+    Target: g=396413c7d7384a1c9bfcfd3f883e5be2
+- Name: DesignTimeNetLogic2
+  Id: g=e24fbfebd75c3774ef3552763cf4bdea
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+    Id: g=e5bcf5db46c7badabf6d9a73c6977c30
+  - Name: BehaviourStartPriority
+    Id: g=36d0292c8e8f33903bfbc2932d6845cf
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
